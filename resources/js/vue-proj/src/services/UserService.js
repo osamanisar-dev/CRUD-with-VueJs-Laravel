@@ -1,11 +1,11 @@
 import axios from "axios";
 
-const API_URL = 'https://e864-2400-adcc-2104-1c00-67db-cf52-4ffe-e289.ngrok-free.app/api/';
+const API_URL = process.env.VUE_APP_API_URL;
 
 export default {
     async getUsers() {
-        const response = await axios.post(API_URL + 'users');
-        return response.data;
+            const response = await axios.post(API_URL + 'users');
+            return response.data;
     },
     async saveUser(user) {
         const response = await axios.post(API_URL + 'user', user);
@@ -19,5 +19,4 @@ export default {
       const response = await axios.delete(API_URL + 'user/' + id);
       return response.data;
     }
-
 }
