@@ -17,7 +17,7 @@ A full-stack CRUD application built with Laravel and Vue.js. This project enable
 
 ## 🛠️ Installation & Setup
 
-### 🧰 Quick Setup (One Command)
+### 🧰 Quick Setup
 
 Run the following script in your terminal to install dependencies, configure Laravel, and start the frontend build:
 
