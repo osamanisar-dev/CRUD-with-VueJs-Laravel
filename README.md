@@ -4,6 +4,10 @@ A full-stack CRUD application built with Laravel and Vue.js. This project enable
 
 ---
 
+https://github.com/user-attachments/assets/9fc7fbb3-937f-4457-8847-24f981cae4b5
+
+---
+
 ## 🚀 Features
 
 - **Laravel 9 Backend**: Robust RESTful API using Laravel's routing and controller features.
